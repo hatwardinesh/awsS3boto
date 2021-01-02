@@ -1,0 +1,19 @@
+<!doctype html>
+<html>
+
+  <head>
+    <title>{{name}}</title>
+   
+  </head>
+
+  <body>
+  <h1> you have sent the page title as :{{name}}</h1>
+  <h2>{{name}} please upload file below</h2>
+  <form action = "/uploader" method = "POST"
+    enctype="multipart/form-data">
+    <input type = "file" name = "file">
+    <input type = "submit"/>
+    </form>
+  </body>
+
+</html>
